@@ -12,7 +12,14 @@ Be sure to change the following:
  ```
  ## Instaltion
  ```
- git clone 
+ git clone https://github.com/hackerman234/PRS.git
+ chmod +x reverse_shell.py
+ ```
+ ## Netcat
+ Heres a guide how to use netcat
+ ```
+ nc -lvp <the port you want to listen on>
+ ```
  
  ## Authors
  @hackerman234
