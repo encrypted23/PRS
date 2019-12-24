@@ -7,8 +7,12 @@ A reverse shell written in python 3.This payload works with netcat and only netc
 ## Instructions
 Be sure to change the following:
 ```
- host = "Your ip"  3 Put your machines IP here 
+ host = "Your ip"  # Put your machines IP here 
  port = 4444       # You can change the port if you would like, this is just a defult one
  ```
+ ## Instaltion
+ ```
+ git clone 
+ 
  ## Authors
  @hackerman234
