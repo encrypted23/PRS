@@ -10,7 +10,7 @@ Be sure to change the following:
  host = "Your ip"  # Put your machines IP here 
  port = 4444       # You can change the port if you would like, this is just a defult one
  ```
- ## Instaltion
+ ## Installation
  ```
  git clone https://github.com/hackerman234/PRS.git
  chmod +x reverse_shell.py
